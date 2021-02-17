@@ -1,0 +1,14 @@
+{
+  "name": "Redirect GitHub1s",
+  "description": "Redirect from active GitHub page to GitHub1s page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting","tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128" : "icon.png"
+  }
+}
